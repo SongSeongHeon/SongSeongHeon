@@ -11,6 +11,7 @@
 
 - 🏥 의료IT공학과에서 **의료데이터 기반 딥러닝**을 공부하고 있습니다.
 - 🔬 의료 영상, 생체 신호, 임상 데이터를 딥러닝으로 분석하는 프로젝트에 관심이 많습니다.
+- 🔧 딥러닝 외에도 IoT·하드웨어 연동 프로젝트를 **PM**으로 이끈 경험이 있습니다.
 - 🌱 현재 TensorFlow를 활용한 모델 설계와 데이터 전처리를 학습 중입니다.
 
 <br>
@@ -20,6 +21,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
@@ -36,7 +38,21 @@
 
 <br>
 
-## 1. 🗣️ 클리어톡 (ClearTalk)
+## 1. 🔥 IoT 스마트 화재감지기 관리 시스템
+
+> 화재감지기 IoT 통합 관리 시스템 _(24-1학기 설계 및 프로젝트 기본I - 6조 팀프로젝트)_
+>
+> - 개발기간 : 2024-1학기
+> - 핵심 역할 : **PM**, 프로젝트 기획 및 팀 운영 주도, 전체 시스템 설계
+> - Skill : Arduino, C#, Firebase, 3D 모델링(Tinkercad)
+>
+> 화재경보기 미작동 시 사망률이 작동 시 대비 약 1.35배 높다는 문제의식에서 출발한 IoT 화재감지 시스템입니다.
+> 아두이노에서 온습도·이산화탄소·불꽃 감지 센서 데이터를 수집해 Firebase에 실시간 전송하고, C# 데스크톱 애플리케이션으로 화재 감지 여부와 센서 오류를 모니터링합니다.
+> 팅커캐드로 3D 모델링 후 3D 프린터로 실물 외형까지 직접 제작했습니다.
+
+<br>
+
+## 2. 🗣️ 클리어톡 (ClearTalk)
 
 > 조음장애 발음 교정 앱 _(24-2학기 설계및프로젝트기본2 - KYIT 팀프로젝트)_
 >
@@ -50,7 +66,7 @@
 
 <br>
 
-## 2. 🔬 피부암 진단 예측 보조 시스템
+## 3. 🔬 피부암 진단 예측 보조 시스템
 
 > 피부 병변 이미지 기반 다중 분류 웹 서비스 _(25-1학기 설계 및 프로젝트 심화 I - 3조 팀프로젝트)_
 >
@@ -64,7 +80,7 @@
 
 <br>
 
-## 3. 🫁 LUNA
+## 4. 🫁 LUNA
 
 > CT 영상 기반 폐질환 다중 분류 시스템 _(융합설계 및 프로젝트Ⅱ - ImiZen 팀프로젝트)_
 >
@@ -77,7 +93,7 @@
 
 <br>
 
-## 4. ❤️ 파문 (PAMOON)
+## 5. ❤️ 파문 (PAMOON)
 
 > ECG 기반 심장 지문 생체인증 _(26-1학기 융합캡스톤디자인I)_
 >
