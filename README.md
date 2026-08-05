@@ -2,7 +2,7 @@
 <h3 align="center">의료IT공학과 학생 | Medical Deep Learning Enthusiast</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Medical+Data+%2B+Deep+Learning;TensorFlow+%7C+Python;AI+for+Healthcare+%F0%9F%A9%BA" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Medical+Data+%2B+Deep+Learning;Python+%7C+C%2FC%2B%2B+%7C+JavaScript;TensorFlow+%7C+SQL;AI+for+Healthcare+%F0%9F%A9%BA" alt="Typing SVG" />
 </p>
 
 <br>
