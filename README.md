@@ -1,48 +1,72 @@
-<h1 align="center">Hi 👋, I'm 송성헌 (Song Seongheon)</h1>
-<h3 align="center">의료IT공학과 학생 | Medical Deep Learning Enthusiast</h3>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Medical+Data+%2B+Deep+Learning;TensorFlow+%7C+Python;AI+for+Healthcare+%F0%9F%A9%BA" alt="Typing SVG" />
-</p>
----
-🙋‍♂️ About Me
+<h1 align="center">Hi 👋, I'm 송성헌 (Song Seongheon)</h1> <h3 align="center">의료IT공학과 학생 | Medical Deep Learning Enthusiast</h3> <p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Medical+Data+%2B+Deep+Learning;TensorFlow+%7C+Python;AI+for+Healthcare+%F0%9F%A9%BA" alt="Typing SVG" /> </p> <br>
+👋 About Me
 🏥 의료IT공학과에서 의료데이터 기반 딥러닝을 공부하고 있습니다.
 🔬 의료 영상, 생체 신호, 임상 데이터를 딥러닝으로 분석하는 프로젝트에 관심이 많습니다.
 🌱 현재 TensorFlow를 활용한 모델 설계와 데이터 전처리를 학습 중입니다.
 📫 연락처: ssh021400@gmail.com
----
+<br>
 🛠️ Tech Stack
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
----
-📂 Projects
-프로젝트	설명	기술 스택
-🫁 LUNA	CT 영상 기반 폐질환(폐렴·폐결핵·폐부종·폐기종) 다중 분류 CNN 모델, 정확도 99.74%	TensorFlow, CNN
-❤️ 파문(PAMOON)	ECG 파형 기반 심장 지문 생체인증, ResNet1D/CNN-BiLSTM 등 모델 비교 후 CNN 계열 채택	Python, TensorFlow, Flask
-🔬 피부암 진단 예측 보조 시스템	HAM10000 데이터셋 기반 CNN(MobileNet) 피부 병변 7종 분류, Top-3 확률 제시 웹 서비스	TensorFlow, Firebase, Android Studio
-🗣️ 클리어톡(ClearTalk)	조음장애 발음 교정 앱, 폭포수 모델 방법론 적용, Google Play 배포	-
-> 각 프로젝트 링크는 실제 레포지토리 주소로 교체 예정입니다.
----
+<p align="left"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> </p> <br>
+📝 Projects
+
+의료IT공학과에서 진행했던 프로젝트들입니다. 주로 딥러닝 모델을 활용한 의료 데이터 분석 및 진단 보조 시스템 개발에 참여했습니다.
+
+<br>
+1. 🫁 LUNA
+
+CT 영상 기반 폐질환 다중 분류 시스템 (융합설계 및 프로젝트Ⅱ - ImiZen 팀프로젝트)
+
+개발기간 : 2025
+핵심 역할 : CM, 문서 양식/PPT 제작, 소프트웨어 버전 관리, 유지보수 단계 변경사항 관리
+Skill : TensorFlow, CNN
+성과 : 평균 정확도 99.74%, 평균 Loss 0.0105
+
+폐렴·폐결핵·폐부종·폐기종 등 오진율과 치사율이 높은 폐질환을 AIHub 합성 CT 데이터로 학습한 CNN 다중 분류 모델로 진단을 보조합니다.
+
+프로젝트 상세 설명
+
+<br>
+2. ❤️ 파문 (PAMOON)
+
+ECG 기반 심장 지문 생체인증 (26-1 융합캡스톤디자인I)
+
+개발기간 : 2026
+핵심 역할 : CM, 문서 양식/버전 관리, ECG 파이프라인 설계 참여
+Skill : TensorFlow, ResNet1D, CNN-BiLSTM, Flask
+
+얼굴·지문 등 기존 생체인증이 위조·유출에 취약하다는 문제의식에서, ECG 파형으로 개인을 식별하는 생체인증 기술을 개발했습니다. ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 모델을 비교해 ECG 파형 특성(짧은 구간 반복 패턴)에 적합한 CNN 계열을 최종 채택했습니다. Galaxy Watch로 측정한 ECG를 Flask 서버에 업로드해 비교하는 실사용 시나리오에서 97.1% 유사도를 확인했습니다.
+
+프로젝트 상세 설명
+
+<br>
+3. 🔬 피부암 진단 예측 보조 시스템
+
+피부 병변 이미지 기반 다중 분류 웹 서비스 (설계 및 프로젝트 심화 I - 3조 팀프로젝트)
+
+개발기간 : 2025
+핵심 역할 : Firebase 연동, 테스트 및 시연 시스템 구축
+Skill : TensorFlow(MobileNet), Firebase, Android Studio
+
+HAM10000 데이터셋(10,015장, 7개 클래스: MEL·NV·BCC·AKIEC·BKL·DF·VASC)으로 학습한 CNN(MobileNet) 모델로 피부암을 분류합니다. 단일 Top-1 예측 대신 Top-3 확률을 제시해 의료 AI의 예측 불확실성을 표현하고, 유사 병변 간 오진 위험을 낮췄습니다. Firebase Realtime Database에 진단 기록을 저장·조회하는 기능을 구현했습니다.
+
+프로젝트 상세 설명
+
+<br>
+4. 🗣️ 클리어톡 (ClearTalk)
+
+조음장애 발음 교정 앱 (설계및프로젝트기본2 - KYIT 팀프로젝트)
+
+개발기간 : 2024
+핵심 역할 : CM, 문서 및 버전 관리
+Skill : 폭포수(Waterfall) 개발 방법론
+배포 : Google Play Store
+
+대치·생략·왜곡·첨가 등 다양한 유형의 조음장애를 겪는 사용자를 위한 발음 교정 서비스입니다. 분석-설계-개발-테스트 전 과정을 폭포수 모델로 순차 진행해 Google Play Store에 출시했습니다.
+
+프로젝트 상세 설명
+
+<br>
 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SongSeongHeon&show_icons=true&theme=default&hide_border=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SongSeongHeon&hide_border=true" height="165"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SongSeongHeon&layout=compact&hide_border=true" height="165"/>
-</p>
----
-📫 Contact
-<p align="left">
-  <a href="mailto:ssh021400@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=SongSeongHeon&show_icons=true&theme=default&hide_border=true" height="165"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=SongSeongHeon&hide_border=true" height="165"/> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SongSeongHeon&layout=compact&hide_border=true" height="165"/> </p> <br>
+📞 Contact
+<p align="left"> <a href="mailto:ssh021400@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> </p>
