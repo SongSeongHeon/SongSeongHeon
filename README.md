@@ -12,7 +12,6 @@
 - 🏥 의료IT공학과에서 **의료데이터 기반 딥러닝**을 공부하고 있습니다.
 - 🔬 의료 영상, 생체 신호, 임상 데이터를 딥러닝으로 분석하는 프로젝트에 관심이 많습니다.
 - 🌱 현재 TensorFlow를 활용한 모델 설계와 데이터 전처리를 학습 중입니다.
-- 📫 연락처: **ssh021400@gmail.com**
 
 <br>
 
@@ -109,10 +108,10 @@
 
 # 📞 Contact
 
--  Email : ssh021400@gmail.com
+- Email : ssh021400@gmail.com
 - Notion : <a href="https://app.notion.com/p/f41f52c1a23d42f38380e6d5dad01af7">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" height="24px" style="margin-top: 10px" />
   </a>
-- Github : <a href="https://github.com/SongSeongHeon">
+- GitHub : <a href="https://github.com/SongSeongHeon">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="24px" style="margin-top: 10px" />
   </a>
