@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm 송성헌 (Song Seongheon)</h1>
+<h1 align="center">송성헌(Song Seongheon) 포트폴리오</h1>
 <h3 align="center">의료IT공학과 학생 | Medical Deep Learning Enthusiast</h3>
 
 <p align="center">
