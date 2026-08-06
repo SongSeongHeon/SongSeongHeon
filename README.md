@@ -50,6 +50,9 @@
 > 화재경보기 미작동 시 사망률이 작동 시 대비 약 1.35배 높다는 문제의식에서 출발한 IoT 화재감지 시스템입니다.
 > 아두이노에서 온습도·이산화탄소·불꽃 감지 센서 데이터를 수집해 Firebase에 실시간 전송하고, C# 데스크톱 애플리케이션으로 화재 감지 여부와 센서 오류를 모니터링합니다.
 > 팅커캐드로 3D 모델링 후 3D 프린터로 실물 외형까지 직접 제작했습니다.
+>
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/24-1_FireDetector)
+
 
 <br>
 
@@ -107,7 +110,7 @@
 > ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 모델을 비교해 ECG 파형 특성(짧은 구간 반복 패턴)에 적합한 **CNN 계열**을 최종 채택했습니다.
 > Galaxy Watch로 측정한 ECG를 Flask 서버에 업로드해 비교하는 실사용 시나리오에서 97.1% 유사도를 확인했습니다.
 >
-> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_Capstone)
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON#requirements)
 
 <br>
 
