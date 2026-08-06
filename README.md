@@ -106,6 +106,8 @@
 > 얼굴·지문 등 기존 생체인증이 위조·유출에 취약하다는 문제의식에서, ECG 파형으로 개인을 식별하는 생체인증 기술을 개발했습니다.
 > ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 모델을 비교해 ECG 파형 특성(짧은 구간 반복 패턴)에 적합한 **CNN 계열**을 최종 채택했습니다.
 > Galaxy Watch로 측정한 ECG를 Flask 서버에 업로드해 비교하는 실사용 시나리오에서 97.1% 유사도를 확인했습니다.
+>
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_Capstone)
 
 <br>
 
