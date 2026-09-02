@@ -79,6 +79,7 @@
 > HAM10000 데이터셋(10,015장, 7개 클래스: MEL·NV·BCC·AKIEC·BKL·DF·VASC)으로 학습한 CNN(MobileNet) 모델로 피부암을 분류합니다.
 > 단일 Top-1 예측 대신 **Top-3 확률을 제시**해 의료 AI의 예측 불확실성을 표현하고, 유사 병변 간 오진 위험을 낮췄습니다.
 > Firebase Realtime Database에 진단 기록을 저장·조회하는 기능을 구현했습니다.
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/25-1_SkinCancer)
 
 <br>
 
