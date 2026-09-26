@@ -74,7 +74,7 @@
 > ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 모델을 비교해 ECG 파형 특성(짧은 구간 반복 패턴)에 적합한 **CNN 계열**을 최종 채택했습니다.
 > Galaxy Watch로 측정한 ECG를 Flask 서버에 업로드해 비교하는 실사용 시나리오에서 97.1% 유사도를 확인했습니다.
 >
-> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON#requirements)
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON)
 
 
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
