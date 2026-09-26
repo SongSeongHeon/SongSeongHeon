@@ -1,30 +1,42 @@
 <h1 align="center">송성헌 (Song Seongheon) 포트폴리오</h1>
 <h3 align="center">의료IT공학과 학생 | Medical Deep Learning Enthusiast</h3>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Medical+Data+%2B+Deep+Learning;Python+%7C+C%2FC%2B%2B+%7C+JavaScript;TensorFlow+%7C+SQL;AI+for+Healthcare+%F0%9F%A9%BA" alt="Typing SVG" />
 </p>
+
 <br>
+
 <a id="toc"></a>
-📑 목차
-소개	프로젝트	기타
-👋 About Me	1. ❤️ 파문 (PAMOON)	🌏 Other Experience
-🛠️ Tech Stack	2. 🫁 LUNA	📞 Contact
-📝 Projects	3. 🔬 피부암 진단 예측 보조 시스템	
-	4. 🗣️ 클리어톡 (ClearTalk)	
-	5. 🔥 IoT 스마트 화재감지기	
+## 📑 목차
+
+| 소개 | 프로젝트 | 기타 |
+|:--|:--|:--|
+| [👋 About Me](#about) | [1. ❤️ 파문 (PAMOON)](#pamoon) | [🌏 Other Experience](#experience) |
+| [🛠️ Tech Stack](#stack) | [2. 🫁 LUNA](#luna) | [📞 Contact](#contact) |
+| [📝 Projects](#projects) | [3. 🔬 피부암 진단 예측 보조 시스템](#skincancer) | |
+| | [4. 🗣️ 클리어톡 (ClearTalk)](#cleartalk) | |
+| | [5. 🔥 IoT 스마트 화재감지기](#firedetector) | |
+
 <br>
+
 <a id="about"></a>
-👋 About Me
-🏥 의료IT공학과에서 의료데이터 기반 딥러닝을 공부하고 있습니다.
-🔬 의료 영상, 생체 신호, 임상 데이터를 딥러닝으로 분석하는 프로젝트에 관심이 많습니다.
-🤝 매 학기 팀 프로젝트에서 PM·CM·ENG 등 다양한 역할을 맡으며, 의견을 조율하고 일정을 관리하는 추진력을 길렀습니다.
-🌏 일본 하코다테 대학 학생들과의 국제 교류 프로젝트에서 협업 경험을 쌓았습니다.
-🌱 현재 TensorFlow를 활용한 모델 설계와 데이터 전처리를 학습 중입니다.
+## 👋 About Me
+
+- 🏥 의료IT공학과에서 **의료데이터 기반 딥러닝**을 공부하고 있습니다.
+- 🔬 의료 영상, 생체 신호, 임상 데이터를 딥러닝으로 분석하는 프로젝트에 관심이 많습니다.
+- 🤝 매 학기 팀 프로젝트에서 PM·CM·ENG 등 다양한 역할을 맡으며, 의견을 조율하고 일정을 관리하는 추진력을 길렀습니다.
+- 🌏 일본 하코다테 대학 학생들과의 국제 교류 프로젝트에서 협업 경험을 쌓았습니다.
+- 🌱 현재 TensorFlow를 활용한 모델 설계와 데이터 전처리를 학습 중입니다.
+
 
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="stack"></a>
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
@@ -36,15 +48,22 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="projects"></a>
-📝 Projects
+## 📝 Projects
+
 의료IT공학과에서 진행했던 프로젝트들입니다.
-주로 딥러닝 모델을 활용한 의료 데이터 분석 및 진단 보조 시스템 개발에 참여했습니다.
+주로 **딥러닝 모델을 활용한 의료 데이터 분석 및 진단 보조 시스템** 개발에 참여했습니다.
+
 <br>
+
 <a id="pamoon"></a>
-1. ❤️ 파문 (PAMOON)
+## 1. ❤️ 파문 (PAMOON)
+
 > ECG 기반 심장 지문 생체인증 _(26-1학기 융합캡스톤디자인I)_
 >
 > - 개발기간 : 2026-1학기
@@ -57,10 +76,14 @@
 >
 > [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON#requirements)
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="luna"></a>
-2. 🫁 LUNA
+## 2. 🫁 LUNA
+
 > CT 영상 기반 폐질환 다중 분류 시스템 _(융합설계 및 프로젝트Ⅱ - ImiZen 팀프로젝트)_
 >
 > - 개발기간 : 2025-2학기
@@ -72,10 +95,14 @@
 >
 > [프로젝트 상세 설명](https://github.com/SongSeongHeon/25-2_LUNA)
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="skincancer"></a>
-3. 🔬 피부암 진단 예측 보조 시스템
+## 3. 🔬 피부암 진단 예측 보조 시스템
+
 > 피부 병변 이미지 기반 다중 분류 웹 서비스 _(25-1학기 설계 및 프로젝트 심화 I - 3조 팀프로젝트)_
 >
 > - 개발기간 : 2025-1학기
@@ -88,10 +115,14 @@
 > 
 > [프로젝트 상세 설명](https://github.com/SongSeongHeon/25-1_SkinCancer)
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="cleartalk"></a>
-4. 🗣️ 클리어톡 (ClearTalk)
+## 4. 🗣️ 클리어톡 (ClearTalk)
+
 > 조음장애 발음 교정 앱 _(24-2학기 설계및프로젝트기본2 - KYIT 팀프로젝트)_
 >
 > - 개발기간 : 2024-2학기
@@ -105,10 +136,14 @@
 >
 > [프로젝트 상세 설명](https://github.com/SongSeongHeon/24-2_ClearTalk)
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="firedetector"></a>
-5. 🔥 IoT 스마트 화재감지기 관리 시스템
+## 5. 🔥 IoT 스마트 화재감지기 관리 시스템
+
 > 화재감지기 IoT 통합 관리 시스템 _(24-1학기 설계 및 프로젝트 기본I - 6조 팀프로젝트)_
 >
 > - 개발기간 : 2024-1학기
@@ -121,11 +156,16 @@
 >
 > [프로젝트 상세 설명](https://github.com/SongSeongHeon/24-1_FireDetector)
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="experience"></a>
-🌏 Other Experience
-2026 Global Camp [Ky × FUN] — 하코다테 지역 활성화 디자인 프로젝트
+## 🌏 Other Experience
+
+### 2026 Global Camp [Ky × FUN] — 하코다테 지역 활성화 디자인 프로젝트
+
 > 건양대학교 × 하코다테 미래대학(Future University Hakodate) 국제 교류 프로젝트
 >
 > - 참여기간 : 2026
@@ -136,15 +176,20 @@
 > 수집한 요소를 SPACE-MBTI 프레임워크로 분류해 "새 콘텐츠를 더하기보다 도시를 읽는 기준을 먼저 제공하자"는 컨셉을 도출하고, SketchUp 미니어처 모형과 다국어 웹 정보 플랫폼(Motomachi Historic Information Center)으로 구체화했습니다.
 > 명소를 점이 아닌 주변 골목·건물과 연결된 '이야기의 네트워크'로 재구성해 체류 경험을 '사진 찍기'에서 '이해하기'로 전환하는 것을 목표로 했습니다.
 
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
+
 <br>
+
 <a id="contact"></a>
-📞 Contact
-Email : ssh021400@gmail.com
-Notion : <a href="https://app.notion.com/p/875ebaa7439f83c8b34081649dccd010">
-<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" height="24px" style="margin-top: 10px" />
-</a>
-GitHub : <a href="https://github.com/SongSeongHeon">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="24px" style="margin-top: 10px" />
-</a>
+## 📞 Contact
+
+- Email : ssh021400@gmail.com
+- Notion : <a href="https://app.notion.com/p/875ebaa7439f83c8b34081649dccd010">
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" height="24px" style="margin-top: 10px" />
+  </a>
+- GitHub : <a href="https://github.com/SongSeongHeon">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="24px" style="margin-top: 10px" />
+  </a>
+
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
