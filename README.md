@@ -164,7 +164,7 @@
 <a id="experience"></a>
 ## 🌏 Other Experience
 
-### 2026 Global Camp [Ky × FUN] — 하코다테 지역 활성화 디자인 프로젝트
+### 2026 Global Camp [Ky × FUH] — 하코다테 지역 활성화 디자인 프로젝트
 
 > 건양대학교 × 하코다테 미래대학(Future University Hakodate) 국제 교류 프로젝트
 >
