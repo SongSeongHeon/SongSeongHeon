@@ -10,13 +10,13 @@
 <a id="toc"></a>
 ## 📑 목차
 
-| 소개 | 프로젝트 | 기타 |
-|:--|:--|:--|
-| [👋 About Me](#about) | [1. ❤️ 파문 (PAMOON)](#pamoon) | [🌏 Other Experience](#experience) |
-| [🛠️ Tech Stack](#stack) | [2. 🫁 LUNA](#luna) | [📞 Contact](#contact) |
-| [📝 Projects](#projects) | [3. 🔬 피부암 진단 예측 보조 시스템](#skincancer) | |
-| | [4. 🗣️ 클리어톡 (ClearTalk)](#cleartalk) | |
-| | [5. 🔥 IoT 스마트 화재감지기](#firedetector) | |
+| 소개 | 개인 프로젝트 | 팀 프로젝트 | 기타 |
+|:--|:--|:--|:--|
+| [👋 About Me](#about) | [👁️ 오큘로그 (Oculog)](#oculog) | [1. ❤️ 파문 (PAMOON)](#pamoon) | [🌏 Other Experience](#experience) |
+| [🛠️ Tech Stack](#stack) | | [2. 🫁 LUNA](#luna) | [📞 Contact](#contact) |
+| [👤 Personal Project](#personal) | | [3. 🔬 피부암 진단 예측 보조 시스템](#skincancer) | |
+| [📝 Team Projects](#projects) | | [4. 🗣️ 클리어톡 (ClearTalk)](#cleartalk) | |
+| | | [5. 🔥 IoT 스마트 화재감지기](#firedetector) | |
 
 <br>
 
@@ -53,8 +53,95 @@
 
 <br>
 
+<a id="personal"></a>
+## 👤 Personal Project
+
+기획부터 데이터 수집, 모델 학습, 웹 서비스, 실사용 검증까지 혼자 진행한 프로젝트입니다.
+
+<br>
+
+<a id="oculog"></a>
+## 👁️ 오큘로그 (Oculog)
+
+> 시선 기반 화상통화 딥페이크 탐지 시스템 _(건양대학교병원 바이오메디컬 인공지능 과정 개인 프로젝트)_
+>
+> - 개발기간 : 2026
+> - 핵심 역할 : 기획, 데이터 수집·정제, 시선 추정 파이프라인, 모델 학습, 웹 데모, 실사용 검증 (단독 수행)
+> - Skill : Python, TensorFlow/Keras, ptgaze, MediaPipe, OpenCV, Flask
+> - 성과 : 정확도 82.16%, AUC 0.882 (FaceForensics++ 기반 평가 영상 185개, EER 임계값 기준)
+>
+> 사람은 대화 중 시선이 미세하게 떨리지만 딥페이크는 이를 재현하지 못한다는 점에 착안해, 시선(yaw·pitch)과 눈 깜빡임(EAR) 시계열을 CNN-LSTM으로 분석하고 두 모델을 0.9 : 0.1로 앙상블해 화상통화 속 딥페이크를 판별합니다. 다중 얼굴·저검출률 영상을 거르는 입력 품질 필터로 정확도 정체를 해결했고, 학습(30fps)과 실시간 입력(5fps)의 밀도 차이를 보간으로 맞춰 일반 노트북 웹캠에서도 동작하도록 만들었습니다.
+
+<details>
+<summary><b>⚙️ 실행 방법</b></summary>
+
+<br>
+
+**환경 구성 (conda 환경 2개)**
+
+시선 추출 라이브러리(ptgaze, mediapipe)와 TensorFlow가 요구하는 protobuf 버전이 서로 충돌해 한 환경에 함께 설치할 수 없어서, Flask 서버를 2개로 나눠 실행합니다. 패키지 버전은 각 환경의 `requirements.txt`를 참고하세요.
+
+| 환경 | Python | 주요 패키지 | 역할 | 포트 |
+|:--|:--|:--|:--|:--|
+| `oculog_ptgaze` | 3.9 | ptgaze, mediapipe, opencv-python-headless, torch, flask | 얼굴 검출 → 시선 각도(yaw, pitch) + 눈 깜빡임(EAR) 추출 | 5001 |
+| `oculog` | 3.11 | tensorflow/keras, flask, numpy, pandas, matplotlib, scikit-learn, opencv-python-headless(선택) | CNN-LSTM 모델 로드, 윈도우 분할·정규화, 시선+깜빡임 앙상블 판정, 웹 UI | 5000 |
+
+> ptgaze는 2021년 라이브러리라 최신 torch·torchvision·scipy·numpy와 맞지 않는 부분을 직접 패치했습니다 (`patch_ptgaze.py`로 자동 적용).
+> torchvision `model_urls` → Weights API 전환, `np.float`·`np.int`·`np.bool` 등 deprecated 타입 제거, `cv2.solvePnP` 결과 shape (3,1) → (3,) 변환, mediapipe 버전 고정
+
+**실행 순서 (터미널 2개)**
+
+터미널 1 — 시선 추출 서버
+```bash
+conda activate oculog_ptgaze
+cd src
+python ptgaze_server.py
+```
+→ http://localhost:5001 에서 대기
+
+터미널 2 — 메인 웹 서버 (터미널 1이 먼저 켜져 있어야 합니다)
+```bash
+conda activate oculog
+cd src
+python app.py
+```
+→ 브라우저에서 http://localhost:5000 접속
+
+**웹 데모 기능**
+
+| 모드 | 설명 |
+|:--|:--|
+| 실시간 통화 | 웹캠으로 10초 분량의 시선 데이터를 모아 판정 |
+| 화면 공유 | Zoom·Teams 화면을 공유받아 상대방 얼굴 영역을 드래그로 지정해 분석 |
+| 영상 업로드 | 녹화된 영상 파일(mp4 등)을 올려 판정 |
+
+**학습 파이프라인 재현 (선택)**
+
+FaceForensics++ 데이터셋은 공식 신청 후 받아야 하며, 재배포가 불가해 저장소에 포함하지 않았습니다.
+```bash
+conda activate oculog_ptgaze
+cd src
+python video_to_gaze_ptgaze.py   # 시선 시계열 추출
+python extract_blink_data.py     # 깜빡임 시계열 추출
+
+conda activate oculog
+cd src
+python train.py --compare        # 시선 모델 4종 비교 학습
+python train_blink.py --compare  # 깜빡임 모델 4종 비교 학습
+python evaluate.py --model cnn_lstm
+python evaluate_ensemble.py --gaze_model cnn_lstm --blink_model cnn_lstm --weight 0.9
+```
+
+> 학습은 WSL2(Ubuntu) + RTX 4070 GPU에서 진행했습니다 (Windows에서는 최신 TensorFlow가 GPU를 지원하지 않음). 웹 데모 추론은 GPU 없는 노트북 CPU에서도 동작을 확인했습니다.
+
+</details>
+
+<p align="right"><a href="#toc">⬆ 목차로</a></p>
+
+<br>
+
 <a id="projects"></a>
-## 📝 Projects
+## 📝 Team Projects
 
 의료IT공학과에서 진행했던 프로젝트들입니다.
 주로 **딥러닝 모델을 활용한 의료 데이터 분석 및 진단 보조 시스템** 개발에 참여했습니다.
@@ -74,7 +161,7 @@
 > ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 모델을 비교해 ECG 파형 특성(짧은 구간 반복 패턴)에 적합한 **CNN 계열**을 최종 채택했습니다.
 > Galaxy Watch로 측정한 ECG를 Flask 서버에 업로드해 비교하는 실사용 시나리오에서 97.1% 유사도를 확인했습니다.
 >
-> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON)
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON#requirements)
 
 
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
@@ -164,7 +251,7 @@
 <a id="experience"></a>
 ## 🌏 Other Experience
 
-### 2026 Global Camp [Ky × FUH] — 하코다테 지역 활성화 디자인 프로젝트
+### 2026 Global Camp [Ky × FUN] — 하코다테 지역 활성화 디자인 프로젝트
 
 > 건양대학교 × 하코다테 미래대학(Future University Hakodate) 국제 교류 프로젝트
 >
