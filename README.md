@@ -152,13 +152,13 @@
 > 조음장애 발음 교정 앱 _(24-2학기 설계및프로젝트기본2 - KYIT 팀프로젝트)_
 >
 > - 개발기간 : 2024-2학기
-> - 핵심 역할 : CM, 문서 및 버전 관리
-> - Skill : Android Studio, Python, MySQL, Firebase
+> - 핵심 역할 : UI 구성 요소 선정·화면 배치, Firebase 서버 연결, CM(문서 및 버전 관리)
+> - Skill : Java, Android Studio, Python, MySQL, Firebase
 > - 개발 방법론 : 폭포수(Waterfall) 모델
-> - 배포 : Android, iOS
+> - 배포 : Android
 >
 > 대치·생략·왜곡·첨가 등 다양한 유형의 조음장애를 겪는 사용자를 위한 발음 교정 서비스입니다.
-> 분석-설계-개발-테스트 전 과정을 폭포수 모델로 순차 진행해 Android/iOS로 출시했습니다.
+> 분석-설계-개발-테스트 전 과정을 폭포수 모델로 순차 진행해 Android 앱으로 구현했습니다.
 >
 > [프로젝트 상세 설명](https://github.com/SongSeongHeon/24-2_ClearTalk)
 
@@ -211,7 +211,7 @@
 ## 📞 Contact
 
 - Email : ssh021400@gmail.com
-- Notion : <a href="https://quirky-trout-c2d.notion.site/875ebaa7439f83c8b34081649dccd010">
+- Notion : <a href="https://app.notion.com/p/875ebaa7439f83c8b34081649dccd010">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" height="24px" style="margin-top: 10px" />
   </a>
 - GitHub : <a href="https://github.com/SongSeongHeon">
