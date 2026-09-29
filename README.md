@@ -211,7 +211,7 @@
 ## 📞 Contact
 
 - Email : ssh021400@gmail.com
-- Notion : <a href="https://app.notion.com/p/875ebaa7439f83c8b34081649dccd010">
+- Notion : <a href="[https://app.notion.com/p/875ebaa7439f83c8b34081649dccd010](https://app.notion.com/p/875ebaa7439f83c8b34081649dccd010)">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" height="24px" style="margin-top: 10px" />
   </a>
 - GitHub : <a href="https://github.com/SongSeongHeon">
