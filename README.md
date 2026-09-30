@@ -72,7 +72,7 @@
 >
 > 사람은 대화 중 시선이 미세하게 떨리지만 딥페이크는 이를 재현하지 못한다는 점에 착안해, 시선과 눈 깜빡임 시계열로 화상통화 속 딥페이크를 판별하고 일반 노트북 웹캠에서 실시간으로 동작하는 웹 데모까지 구현했습니다.
 >
-> [프로젝트 상세 설명]()
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/Oculog)
 
 
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
@@ -100,7 +100,7 @@
 > ResNet1D, Plain CNN1D, BiLSTM, CNN-BiLSTM 모델을 비교해 ECG 파형 특성(짧은 구간 반복 패턴)에 적합한 **CNN 계열**을 최종 채택했습니다.
 > Galaxy Watch로 측정한 ECG를 Flask 서버에 업로드해 비교하는 실사용 시나리오에서 97.1% 유사도를 확인했습니다.
 >
-> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON#requirements)
+> [프로젝트 상세 설명](https://github.com/SongSeongHeon/26-1_PAMOON)
 
 
 <p align="right"><a href="#toc">⬆ 목차로</a></p>
